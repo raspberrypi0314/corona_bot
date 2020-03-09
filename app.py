@@ -45,6 +45,7 @@ for row in table_rows[1:]:
 data = template(result)
 print(data)
 
+standard = soup.select('.timetable p span')[0].text + ' 기준'
 
 helper = '''
 Column Description:
@@ -56,4 +57,4 @@ Column Description:
 - Inspec: 검사자수
 '''
 
-# send(data + helper)
+send(standard + data + helper)
