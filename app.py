@@ -57,8 +57,4 @@ Column Description:
 - Inspec: 검사자수
 '''
 
-<<<<<<< HEAD
 send(standard + data + helper)
-=======
-send(data + helper)
->>>>>>> 0d854d37c0c3352313956708173a77b0e1929ec1
